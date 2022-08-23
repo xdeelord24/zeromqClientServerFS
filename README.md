@@ -1,11 +1,14 @@
-Requirements:
+## Requirements:
     Install NODE JS
 
-Commands:
+## Commands:
+```bash
     npm install
     npm install fs
     npm install zeromq@5
-
-Execute:
+```
+## Execute:
+```bash
     node producer.js
     node worker.js
+```
