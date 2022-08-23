@@ -17,6 +17,7 @@ console.log("Producer bound to port 3000");
 
 /* Sending the file content to the consumer every 500 milliseconds. */
 setInterval(function() {
+  // console.log("sending work");
   const fileContent = fs.readFileSync("example/input.txt", 'utf8');
   sock.send(fileContent);
 }, 500);

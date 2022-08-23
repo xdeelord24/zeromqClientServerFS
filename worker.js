@@ -14,5 +14,6 @@ console.log("Worker connected to port 3000");
 
 /* Listening for a message from the socket. When it receives a message, it writes it to a file. */
 sock.on("message", function(msg) {
+  // console.log("work: %s", msg.toString());
   fs.writeFileSync("example/output.txt", msg);
 });
