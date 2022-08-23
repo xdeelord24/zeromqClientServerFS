@@ -14,3 +14,5 @@ $ npm install zeromq@5
 $ node producer.js
 $ node worker.js
 ```
+
+https://www.npmjs.com/package/zeromq
