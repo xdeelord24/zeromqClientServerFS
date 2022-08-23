@@ -1,5 +1,5 @@
 ## Requirements:
-    Install NODE JS
+    `Install NODE JS`
 
 ## Commands:
 ```bash
